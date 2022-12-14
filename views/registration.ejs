@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Registrations
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-offset-3">
+            
+                    <h1>Complete your Register process</h1>
+                    
+                
+                <form action="/added" method="post">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="name">Name: </label>
+                                <input type="text" id="name" class="form-control" name="name" value="<%=user.name%>" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" class="form-control" name="email" value="<%=user.email%>" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone: </label>
+                                <input type="tel" id="phone" class="form-control" name="phone" value="<%=user.phone%>" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City: </label>
+                                <input type="text" id="city" class="form-control" name="city" value="<%=user.city%>" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">Address: </label>
+                                <input type="text" id="address" class="form-control" name="address" value="<%=user.address%>" required="required">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-success">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+</body>
+
+</html>
