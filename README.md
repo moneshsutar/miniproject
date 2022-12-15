@@ -10,6 +10,5 @@ Screenshots
 ## solution
 ---
 <p><img src="sol (1).png" alt="implant" width="800"/></p>
-<p><img src="sol (2).png" alt="implant" width="800"/></p>
 <p><img src="sol (3).png" alt="implant" width="800"/></p>
 <p><img src="sol (4).png" alt="implant" width="800"/></p>
